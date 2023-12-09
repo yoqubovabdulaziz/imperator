@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Montserrat400;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat700;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: Montserrat500;
+  src: url(../../assets/fonts/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: Montserrat600;
+  src: url(../../assets/fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: Inter400;
+  src: url(../../assets/fonts/Inter/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter600;
+  src: url(../../assets/fonts/Inter/Inter-Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
