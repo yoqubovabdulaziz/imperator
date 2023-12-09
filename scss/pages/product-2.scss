@@ -1,1 +1,22 @@
 @use "../global";
+.accordion-custom {
+  .accordion-button::after {
+    background-image: url("../images/plus.svg");
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("../images/minus.svg");
+  }
+}
+
+.menu{
+  width: 100%;
+
+  &__row{
+    // width: 100%;
+    // max-width: 1190px;
+    
+    .menu__card {
+      max-width: 264px;
+    }
+  }
+}
