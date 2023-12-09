@@ -1,6 +1,10 @@
 @use "../global";
 @use "../utils/variables" as var;
 
+#hero {
+  padding-top: 112px; 
+}
+
 .hero__left {
   background-color: var.$black-color;
   h4 {

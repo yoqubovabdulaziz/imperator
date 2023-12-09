@@ -144,6 +144,10 @@ header {
     display: inline;
   }
 }
+#hero {
+  padding-top: 112px;
+}
+
 .hero__left {
   background-color: #0D0D0D;
 }
