@@ -83,6 +83,7 @@ header {
   position: fixed;
   left: 0;
   right: 0;
+  z-index: 2;
 }
 
 .nav {
@@ -145,5 +146,15 @@ header {
   }
 }
 #product {
-  padding-top: 40px;
+  padding-top: 140px;
+}
+
+button.owl-dot.active {
+  padding: 15px;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+button.owl-dot.active span {
+  color: black;
 }
