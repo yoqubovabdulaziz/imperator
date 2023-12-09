@@ -16,7 +16,9 @@ module.exports = {
   content: ["pages/registration-product-2.html"],
   content: ["pages/registration.html"],
   theme: {
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 };
