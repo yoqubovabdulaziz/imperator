@@ -1,0 +1,27 @@
+@use "../global";
+@use "../utils/variables" as var;
+
+#hero {
+  padding-top: 112px; 
+}
+
+.hero__left {
+  background-color: var.$black-color;
+  h4 {
+    max-width: 588px;
+    color: var.$white-color;
+    font-family: Montserrat700;
+    font-size: 34px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+  }
+  p {
+    max-width: 588px;
+    color: var.$white-color;
+    font-family: Montserrat500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+  }
+}
+

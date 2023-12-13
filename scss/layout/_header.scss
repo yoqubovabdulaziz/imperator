@@ -1,0 +1,87 @@
+@use "../utils/variables" as var;
+
+.language {
+  height: 40px;
+  background-color: var.$black-color;
+  left: 0;
+  right: 0;
+  a {
+    color: var.$white-color;
+    font-family: Montserrat700;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+}
+
+.rus-uzb {
+  height: 100%;
+  align-items: center;
+}
+
+header {
+  background-color: var.$bgc2-white;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.nav {
+  height: 72px;
+  align-items: center;
+  &__logo {
+    color: var.$black-color;
+    font-family: var.$primary-font;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+  }
+  li {
+    color: #000;
+    font-family: var.$primary-font;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+  }
+  .login {
+    color: var.$black-color;
+    font-family: var.$primary-font;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.44px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: var(--black-5, rgba(0, 0, 0, 0.05));
+  }
+  .registration {
+    color: var.$black-color;
+    font-family: var.$primary-font;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0.44px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: var.$primary-color;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+    .nav__list {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav__end {
+        display: none;
+    }
+    .toggle {
+        display: inline;
+    }
+}
