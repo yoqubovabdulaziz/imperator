@@ -312,6 +312,16 @@ button {
   font-size: 23px;
 }
 
+.basket-res {
+  display: none;
+  font-size: 23px;
+}
+@media (max-width: 500px) {
+  .basket-res {
+    display: inline;
+  }
+}
+
 #language {
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -418,6 +428,79 @@ header {
           align-items: center;
 }
 
+.nav-list-res {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+@media (min-width: 500px) {
+  .nav-list-res {
+    display: none;
+  }
+}
+.nav-list-res i {
+  font-size: 28px;
+}
+
+#navbar-responsive {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  background-color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 100;
+}
+#navbar-responsive li {
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#navbar-responsive .login,
+#navbar-responsive .registration {
+  background-color: #FFC000;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+#navbar-close {
+  position: absolute;
+  right: 15px;
+  top: 35px;
+  font-size: 25px;
+  color: red;
+}
+
+.res-lang {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  margin-left: 15px;
+}
+
 @media (max-width: 900px) {
   .nav__list {
     display: none;
@@ -425,6 +508,9 @@ header {
 }
 @media (max-width: 500px) {
   .nav__end {
+    display: none;
+  }
+  .nav__logo {
     display: none;
   }
   .toggle {

@@ -42,6 +42,12 @@
       </div>
       <nav id="navbar">
         <div class="nav container__1190 mx-auto flex justify-between">
+          <div class="nav-list-res">
+            <button id="navbar-open">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <img src="assets/images/Logo.svg" alt="">
+          </div>
           <a href="#" class="nav__logo">MILANDI</a>
           <ul class="nav__list flex gap-10">
             <li><a class="active-navbar" href="#">Главная</a></li>
@@ -56,11 +62,30 @@
             <a class="ru rus" href="#">RU</a>
             <a class="uz" href="home-uz.html">UZB</a>
           </div>
+            <i class="fa-solid fa-cart-shopping basket-res"></i>
         </div>
       </nav>
     </header>
+    <div id="navbar-responsive">
+      <ul class="nav__res__list">
+        <button id="navbar-close">
+          <i class="fa-regular fa-circle-xmark"></i>
+        </button>
+        <img src="assets/images/Logo.svg" alt="">
+        <li><a class="active-navbar" href="#">Главная</a></li>
+        <li><a href="pages/about.html">О нас</a></li>
+        <li><a href="pages/category.html">Категории</a></li>
+        <li><a href="pages/partner.html">Сотрудничество</a></li>
+        <li><a class="login" href="pages/login.html">Войти</a></li>
+        <li><a class="registration" href="pages/registration.html">Зарегистрироваться</a></li>
+        <div class="res-lang">
+          <a class="res-nav-ru" href="#">RU</a>
+          <a class="res-nav-uz" href="home-uz.html">UZB</a> 
+        </div>
+      </ul>
+    </div>
     <main>
-      <div class="mobile-img">
+      <div id="mobile-img" class="mobile-img">
         <img src="assets/images/home-hero2.png" alt="" />
       </div>
       <section id="hero">
@@ -76,10 +101,10 @@
               >
             </p>
             <div class="btn">
-              <a href="#">
+              <a href="pages/product-2.html">
                 <img src="assets/images/home-hero-play.svg" alt="" />
               </a>
-              <a href="#">Все товары</a>
+              <a href="pages/product-2.html">Все товары</a>
             </div>
           </div>
           <div class="hero__right">

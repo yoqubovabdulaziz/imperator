@@ -24,6 +24,14 @@
   font-size: 23px;
 }
 
+.basket-res {
+  display: none;
+  font-size: 23px;
+  @media (max-width: 500px) {
+    display: inline;
+  }
+}
+
 #language {
   transition: 0.5s;
 }
@@ -120,6 +128,64 @@ height: 100%;
   }
 }
 
+
+// respons nav
+.nav-list-res {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  @media (min-width: 500px){
+    display: none;
+  }
+  i {
+    font-size: 28px;
+  }
+}
+
+
+#navbar-responsive {
+	position: fixed;
+  top: 0;
+	bottom: 0;
+  left: -100%;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  background-color: white;
+  transition: 0.5s;
+  z-index: 100;
+  li {
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .login,
+  .registration {
+    background-color: var.$primary-color;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+}
+
+#navbar-close {
+  position: absolute;
+  right: 15px;
+  top: 35px;
+  font-size: 25px;
+  color: red;
+}
+
+.res-lang {
+  width: 100px;
+  display: flex;
+  gap: 20px;
+  margin-left: 15px;
+}
+
 @media (max-width: 900px) {
     .nav__list {
         display: none;
@@ -129,6 +195,9 @@ height: 100%;
 @media (max-width: 500px) {
     .nav__end {
         display: none;
+    }
+    .nav__logo {
+      display: none;
     }
     .toggle {
         display: inline;
