@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @font-face {
   font-family: Montserrat400;
   src: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
@@ -668,4 +669,206 @@ footer {
   font-family: url(../../assets/fonts/Inter/Inter-Regular.ttf);
   font-size: 16px;
   line-height: 24px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.home-price {
+  max-width: 400px;
+  background: var(--Yellow, #FFC000);
+  padding: 10px;
+}
+
+.price-1 {
+  padding: 6px 0 10px 6px;
+}
+
+.price-2 {
+  padding: 0 0 10px 6px;
+}
+
+.home {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (min-width: 1000px) {
+  .home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.checkbox-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.checkbox-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.check-rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+}
+
+.inputs {
+  margin-bottom: 20px;
+  max-width: 558px;
+  background: var(--Grey-7, #F1F1F1);
+  color: rgba(0, 0, 0, 0.4);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+  padding: 15px 140px 15px 16px;
+}
+@media (min-width: 1000px) {
+  .inputs {
+    padding: 15px 340px 15px 16px;
+  }
+}
+
+.right-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 17px 93px;
+  color: var(--Black, #0D0D0D);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  background: var(--Yellow, #FFC000);
+}
+@media (min-width: 1000px) {
+  .right-button {
+    padding: 17px 193px;
+  }
+}
+
+.home-titles {
+  padding: 164px 0 80px 0;
+  color: #000;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+}
+
+.home-title {
+  padding: 64px 0 80px 0;
+  color: #000;
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+}
+
+.magazin-img {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+@media (min-width: 1000px) {
+  .magazin-img {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.kategoriya-button {
+  border-radius: 8px;
+  background: var(--Yellow, #FFC000);
+  border: 1px solid transparent;
+  padding: 10px 88px;
+  color: var(--Black, #0D0D0D);
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}
+@media (min-width: 1000px) {
+  .kategoriya-button {
+    padding: 28px 60px;
+  }
+}
+
+.katogoriya-img {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  margin-bottom: 20px;
+}
+@media (min-width: 1000px) {
+  .katogoriya-img {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.buttons {
+  padding: 10px 40px;
+}
+@media (min-width: 1000px) {
+  .buttons {
+    padding: 28px 14px;
+  }
+}
+
+.buttons-1 {
+  padding: 10px 96px;
+}
+@media (min-width: 1000px) {
+  .buttons-1 {
+    padding: 28px 70px;
+  }
+}
+
+.buttons-2 {
+  padding: 12px 15px;
+}
+@media (min-width: 1000px) {
+  .buttons-2 {
+    padding: 12px 15px;
+  }
 }
