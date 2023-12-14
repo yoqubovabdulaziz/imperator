@@ -154,6 +154,11 @@ button {
   background-color: var.$primary-color;
 }
 
+
+.dark .password i {
+  color: var.$black-color;
+}
+
 .dark footer,
 .dark header,
 .dark #service,
@@ -171,6 +176,7 @@ button {
   background-color: var.$black-color;
   transition: 0.5s;
 }
+
 
 .dark .discount {
   background-color: var.$primary-color;

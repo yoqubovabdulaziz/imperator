@@ -219,6 +219,10 @@ button {
   background-color: #FFC000;
 }
 
+.dark .password i {
+  color: #0D0D0D;
+}
+
 .dark footer,
 .dark header,
 .dark #service,
@@ -664,4 +668,115 @@ footer {
   font-family: url(../../assets/fonts/Inter/Inter-Regular.ttf);
   font-size: 16px;
   line-height: 24px;
+}
+
+#profil {
+  padding-top: 200px;
+}
+
+.profil__all {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+.profil__left__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.profil__left__img button {
+  margin-top: 15px;
+  width: 75%;
+  padding: 10px;
+  background-color: #FFC000;
+  border-radius: 10px;
+  color: black;
+  font-size: 24px;
+  font-family: Montserrat600;
+}
+
+form label,
+form label {
+  font-size: 24px;
+  font-family: Montserrat600;
+}
+
+form input,
+form input {
+  border: 1px solid #DBDEE7;
+  border-radius: 10px;
+  padding: 10px 50px 10px 10px;
+}
+
+input::-webkit-input-placeholder {
+  color: black;
+  font-size: 20px;
+}
+
+input::-moz-placeholder {
+  color: black;
+  font-size: 20px;
+}
+
+input:-ms-input-placeholder {
+  color: black;
+  font-size: 20px;
+}
+
+input::-ms-input-placeholder {
+  color: black;
+  font-size: 20px;
+}
+
+input::placeholder {
+  color: black;
+  font-size: 20px;
+}
+
+.input-3,
+.input-1,
+.input-2,
+.password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: start;
+}
+
+.password {
+  position: relative;
+}
+.password i {
+  font-size: 25px;
+  position: absolute;
+  right: 10px;
+  top: 38px;
+}
+.password a {
+  font-size: 15px;
+  color: #FFC000;
+  font-family: Montserrat600;
+}
+
+@media (min-width: 750px) {
+  .profil__all {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 200px;
+  }
 }

@@ -69,27 +69,11 @@ function openNavbar() {
 }
 function closeNavbar() {
   document.getElementById("navbar-responsive").style.left = "-100%";
-  document.getElementById("hero").style.left = "-100%";
-  document.getElementById("service").style.left = "-100%";
-  document.getElementById("best__product").style.left = "-100%";
-  document.getElementById("category").style.left = "-100%";
-  document.getElementById("adv").style.left = "-100%";
-  document.getElementById("new__product").style.left = "-100%";
-  document.getElementById("imperia").style.left = "-100%";
-  document.getElementById("discount").style.left = "-100%";
-  document.getElementById("mobile-img").style.left = "-100%";
+  document.getElementById("main").style.left = "-100%";
 
 }
 
 document.getElementById("navbar-open").addEventListener("click", openNavbar);
 document.getElementById("navbar-close").addEventListener("click", closeNavbar);
-document.getElementById("hero").addEventListener("click", closeNavbar);
-document.getElementById("service").addEventListener("click", closeNavbar);
-document.getElementById("best__product").addEventListener("click", closeNavbar);
-document.getElementById("category").addEventListener("click", closeNavbar);
-document.getElementById("adv").addEventListener("click", closeNavbar);
-document.getElementById("new__product").addEventListener("click", closeNavbar);
-document.getElementById("imperia").addEventListener("click", closeNavbar);
-document.getElementById("discount").addEventListener("click", closeNavbar);
-document.getElementById("mobile-img").addEventListener("click", closeNavbar);
+document.getElementById("main").addEventListener("click", closeNavbar);
 

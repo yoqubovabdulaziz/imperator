@@ -219,6 +219,10 @@ button {
   background-color: #FFC000;
 }
 
+.dark .password i {
+  color: #0D0D0D;
+}
+
 .dark footer,
 .dark header,
 .dark #service,
