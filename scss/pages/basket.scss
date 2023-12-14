@@ -5,6 +5,7 @@
     padding: 64px;
     
     h2 {
+        font-family: 'Montserrat', sans-serif;
         text-align: center;
         font-variant-numeric: lining-nums proportional-nums;
         font-size: 34px;
@@ -18,13 +19,18 @@
     text-align: center;
     span {
             img {
-    
+                border-radius: 15px;
                 margin-bottom: 26px;
                 max-width: 264px;
                 width: 100%;
+                transition: 0.3s;
+                &:hover {
+                    transform: scale(1.2);
+                }
             }
     
             h4 {
+                font-family: 'Montserrat', sans-serif;
                 margin-bottom: 24px;
                 font-variant-numeric: lining-nums proportional-nums;
                 font-size: 25px;

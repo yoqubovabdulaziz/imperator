@@ -150,6 +150,7 @@ header {
   padding: 64px;
 }
 #basket__kategories h2 {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   font-variant-numeric: lining-nums proportional-nums;
   font-size: 34px;
@@ -162,11 +163,19 @@ header {
   text-align: center;
 }
 #basket__kategories .kategories__shop span img {
+  border-radius: 15px;
   margin-bottom: 26px;
   max-width: 264px;
   width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#basket__kategories .kategories__shop span img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 #basket__kategories .kategories__shop span h4 {
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 24px;
   font-variant-numeric: lining-nums proportional-nums;
   font-size: 25px;
