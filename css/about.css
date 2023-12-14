@@ -235,7 +235,11 @@ button {
 .dark #add,
 .dark #product,
 .dark #basket__kategories,
-.dark #profil {
+.dark #profil,
+.dark #payment,
+.dark #zakaz,
+.dark #magazin,
+.dark #category__eror {
   background-color: #0D0D0D;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -263,7 +267,12 @@ button {
 .dark #product *,
 .dark #basket__kategories *,
 .dark #hero *,
-.dark #profil * {
+.dark #profil *,
+.dark #payment *,
+.dark .footer__mobile *,
+.dark #footer__bottom,
+.dark #magazin *,
+.dark #category__eror * {
   color: #FFF;
 }
 
@@ -272,7 +281,9 @@ button {
   background-color: #333;
 }
 
-.dark #toggle-password {
+.dark #toggle-password,
+.dark #hero .hero__card *,
+.dark #hero_card * {
   color: black;
 }
 

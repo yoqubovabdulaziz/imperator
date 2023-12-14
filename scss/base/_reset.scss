@@ -171,7 +171,11 @@ button {
 .dark #add,
 .dark #product,
 .dark #basket__kategories,
-.dark #profil {
+.dark #profil,
+.dark #payment,
+.dark #zakaz,
+.dark #magazin,
+.dark #category__eror {
   background-color: var.$black-color;
   transition: 0.5s;
 }
@@ -200,7 +204,12 @@ button {
 .dark #product *,
 .dark #basket__kategories *,
 .dark #hero *,
-.dark #profil * {
+.dark #profil *,
+.dark #payment *,
+.dark .footer__mobile *,
+.dark #footer__bottom,
+.dark #magazin *,
+.dark #category__eror * {
   color: var.$white-color;
 }
 
@@ -210,6 +219,8 @@ button {
 }
 
 
-.dark #toggle-password {
+.dark #toggle-password,
+.dark #hero .hero__card *,
+.dark #hero_card * {
   color: var.$dark-color
 }

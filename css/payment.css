@@ -235,7 +235,11 @@ button {
 .dark #add,
 .dark #product,
 .dark #basket__kategories,
-.dark #profil {
+.dark #profil,
+.dark #payment,
+.dark #zakaz,
+.dark #magazin,
+.dark #category__eror {
   background-color: #0D0D0D;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -263,7 +267,12 @@ button {
 .dark #product *,
 .dark #basket__kategories *,
 .dark #hero *,
-.dark #profil * {
+.dark #profil *,
+.dark #payment *,
+.dark .footer__mobile *,
+.dark #footer__bottom,
+.dark #magazin *,
+.dark #category__eror * {
   color: #FFF;
 }
 
@@ -272,7 +281,9 @@ button {
   background-color: #333;
 }
 
-.dark #toggle-password {
+.dark #toggle-password,
+.dark #hero .hero__card *,
+.dark #hero_card * {
   color: black;
 }
 
@@ -676,4 +687,84 @@ footer {
   font-family: url(../../assets/fonts/Inter/Inter-Regular.ttf);
   font-size: 16px;
   line-height: 24px;
+}
+
+#payment {
+  background-color: #F2F3F7;
+}
+
+.payment {
+  padding: 200px 20px 64px;
+}
+.payment__title {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat700;
+  font-size: 34px;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+  margin-bottom: 40px;
+}
+.payment .payment__row {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+.payment img {
+  display: none;
+}
+@media (min-width: 1000px) {
+  .payment img {
+    display: inline;
+  }
+}
+.payment .name__card,
+.payment .nomer__card,
+.payment .date__card {
+  max-width: 460px;
+}
+.payment .name__card input,
+.payment .nomer__card input,
+.payment .date__card input {
+  width: 100%;
+  padding: 19px 0 19px 16px;
+  margin-bottom: 32px;
+}
+.payment .name__card ::-webkit-input-placeholder, .payment .nomer__card ::-webkit-input-placeholder, .payment .date__card ::-webkit-input-placeholder {
+  color: black;
+}
+.payment .name__card ::-moz-placeholder, .payment .nomer__card ::-moz-placeholder, .payment .date__card ::-moz-placeholder {
+  color: black;
+}
+.payment .name__card :-ms-input-placeholder, .payment .nomer__card :-ms-input-placeholder, .payment .date__card :-ms-input-placeholder {
+  color: black;
+}
+.payment .name__card ::-ms-input-placeholder, .payment .nomer__card ::-ms-input-placeholder, .payment .date__card ::-ms-input-placeholder {
+  color: black;
+}
+.payment .name__card ::placeholder,
+.payment .nomer__card ::placeholder,
+.payment .date__card ::placeholder {
+  color: black;
+}
+.payment .name__card label,
+.payment .nomer__card label,
+.payment .date__card label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.payment .pay {
+  text-align: center;
+  max-width: 460px;
+}
+.payment .pay a {
+  color: var(--Black, #0d0d0d);
+  font-family: Montserrat600;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  background-color: #FFC000;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }

@@ -51,7 +51,7 @@
             <button id="navbar-open">
               <i class="fa-solid fa-bars"></i>
             </button>
-            <img src="../assets/images/Logo.svg" alt="">
+            <img src="../assets/images/Logo.svg" alt="" />
           </div>
           <a href="../index.html" class="nav__logo">MILANDI</a>
           <ul class="nav__list flex gap-10">
@@ -62,7 +62,9 @@
           </ul>
           <div class="nav__end flex gap-6">
             <a class="login" href="login.html">Войти</a>
-            <a class="registration" href="registration.html">Зарегистрироваться</a>
+            <a class="registration" href="registration.html"
+              >Зарегистрироваться</a
+            >
             <a href="basket.html">
               <i class="fa-solid fa-cart-shopping basket"></i>
             </a>
@@ -91,12 +93,12 @@
         </li>
         <div class="res-lang">
           <a class="res-nav-ru" href="#">RU</a>
-          <a class="res-nav-uz" href="about-uz.html">UZB</a>
+          <a class="res-nav-uz" href="#">UZB</a>
         </div>
       </ul>
     </div>
     <main id="main">
-      <section>
+      <section id="hero">
         <div class="container__1190">
           <h1 class="home-titles">Оформление заказа</h1>
           <div class="home">
@@ -157,7 +159,75 @@
           </div>
         </div>
       </section>
-      <section>
+      <section id="zakaz">
+        <div class="container__1190">
+          <div class="hero__card">
+            <div class="hero__card__img">
+              <img src="../assets/images/product-4-hero.png" alt="" />
+            </div>
+            <div class="hero__card__right">
+              <div class="hero__card__right__top">
+                <h3>Худи мужская белая с принтом.</h3>
+                <img src="../assets/images/x.svg" alt="" />
+              </div>
+              <p class="hero__card__right__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget
+                tellus purus, id pretium viverra rutrum. Et blandit nunc a
+                pellentesque in cras facilisis sapien, dictum. At vel egestas urna
+                morbi tortor leo ut. In curabitur at pretium vulputate in. Porta
+                bibendum feugiat congue id rhoncus. Vel semper enim, eget.
+              </p>
+              <div class="hero__card__right__bottom">
+                <div class="hero__card__right__bottom__left">
+                  <p>25.000 Сум</p>
+                  <div class="hero__card__size">
+                    <p>Size:</p>
+                    <span>28</span>
+                  </div>
+                </div>
+                <div class="hero__card__bottom__right">
+                  <span class="minus">-</span>
+                  <span class="card__number">1</span>
+                  <span class="plus">+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero__card">
+            <div class="hero__card__img">
+              <img src="../assets/images/product-4-hero.png" alt="" />
+            </div>
+            <div class="hero__card__right">
+              <div class="hero__card__right__top">
+                <h3>Худи мужская белая с принтом.</h3>
+                <img src="../assets/images/x.svg" alt="" />
+              </div>
+              <p class="hero__card__right__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget
+                tellus purus, id pretium viverra rutrum. Et blandit nunc a
+                pellentesque in cras facilisis sapien, dictum. At vel egestas urna
+                morbi tortor leo ut. In curabitur at pretium vulputate in. Porta
+                bibendum feugiat congue id rhoncus. Vel semper enim, eget.
+              </p>
+              <div class="hero__card__right__bottom">
+                <div class="hero__card__right__bottom__left">
+                  <p>25.000 Сум</p>
+                  <div class="hero__card__size">
+                    <p>Size:</p>
+                    <span>28</span>
+                  </div>
+                </div>
+                <div class="hero__card__bottom__right">
+                  <span class="minus">-</span>
+                  <span class="card__number">1</span>
+                  <span class="plus">+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="magazin">
         <div class="container__1190">
           <h2 class="home-title">Магазины</h2>
           <div class="magazin-img">
@@ -168,7 +238,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section id="category">
         <div class="container__1190">
           <h2 class="home-title">Категории</h2>
           <div class="katogoriya-img">
@@ -247,13 +317,13 @@
             <div class="footer__location">
               <img src="assets/images/footer-location.svg" alt="" />
               <div>
-                <p>Los Angeles,</p>
-                <p>359 Hidden Valley Road</p>
+                <p id="footer__bottom">Los Angeles,</p>
+                <p id="footer__bottom">359 Hidden Valley Road</p>
               </div>
             </div>
             <div class="footer__email">
               <img src="assets/images/footer-email.svg" alt="" />
-              <p>Hellohero@gmail.com</p>
+              <p id="footer__bottom">Hellohero@gmail.com</p>
             </div>
           </div>
         </div>
