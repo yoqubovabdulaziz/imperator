@@ -2,7 +2,7 @@
 
 .language {
   height: 40px;
-  background-color: var.$black-color;
+  background-color: var.$dark-color;
   left: 0;
   right: 0;
   a {
@@ -20,6 +20,18 @@
   align-items: center;
 }
 
+.basket {
+  font-size: 23px;
+}
+
+#language {
+  transition: 0.5s;
+}
+
+#language.language-shrink {
+  margin-top: -41px;
+}
+
 header {
   background-color: var.$bgc2-white;
   position: fixed;
@@ -28,8 +40,33 @@ header {
   z-index: 2;
 }
 
-.nav {
+#navbar {
   height: 72px;
+  transition: 0.5s;
+  box-shadow: 0px 10px 34px -4px rgba(24, 39, 75, 0.12), 0px 3px 12px -6px rgba(24, 39, 75, 0.12);
+}
+
+#navbar.navbar-shrink {
+  height: 52px;
+  box-shadow: 0 0 20px 1px;
+}
+
+.active-navbar {
+  color: var.$primary-color
+}
+
+.rus,
+.uz {
+  display: none;
+}
+
+#navbar.navbar-shrink .ru,
+#navbar.navbar-shrink .uz {
+  display: inline;
+}
+
+.nav {
+height: 100%;
   align-items: center;
   &__logo {
     color: var.$black-color;
@@ -46,6 +83,14 @@ header {
     font-weight: 500;
     line-height: 140%;
     letter-spacing: 0.1px;
+    transition: 0.5s;
+  }
+  a {
+    padding-bottom: 5px;
+    transition: 0.1s;
+  }
+  li:hover a {
+    border-bottom: 3px solid var.$primary-color;
   }
   .login {
     color: var.$black-color;
@@ -69,6 +114,9 @@ header {
     border-radius: 4px;
     background-color: var.$primary-color;
     margin-right: 20px;
+  }
+  &__end {
+    align-items: center;
   }
 }
 
