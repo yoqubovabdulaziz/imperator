@@ -665,3 +665,106 @@ footer {
   font-size: 16px;
   line-height: 24px;
 }
+
+.payment {
+  padding-top: 200px;
+}
+.payment .payment_title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+.payment .payment_body {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.payment .payment_body .p_body_img {
+  padding-left: 40px;
+}
+.payment .payment_body .p_body_form {
+  max-width: 460px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 32px;
+}
+.payment .payment_body .p_body_form input {
+  background-color: #f1f1f1;
+  width: 460px;
+  height: 60px;
+  padding-left: 16px;
+}
+.payment .payment_body .p_body_form input::-webkit-input-placeholder {
+  color: #0a0a0a;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.44px;
+}
+.payment .payment_body .p_body_form input::-moz-placeholder {
+  color: #0a0a0a;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.44px;
+}
+.payment .payment_body .p_body_form input:-ms-input-placeholder {
+  color: #0a0a0a;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.44px;
+}
+.payment .payment_body .p_body_form input::-ms-input-placeholder {
+  color: #0a0a0a;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.44px;
+}
+.payment .payment_body .p_body_form input::placeholder {
+  color: #0a0a0a;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.44px;
+}
+.payment .payment_body .p_body_form .data p {
+  color: #0a0a0a;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.44px;
+}
+.payment .payment_body .p_body_form .data input {
+  margin-top: 10px;
+}
+.payment .payment_body .p_body_form button {
+  width: 460px;
+  height: 60px;
+  background-color: #FFC000;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}

@@ -665,3 +665,151 @@ footer {
   font-size: 16px;
   line-height: 24px;
 }
+
+.register {
+  padding-top: 200px;
+}
+.register .register_title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+.register .blank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+}
+.register .blank .blank_img {
+  height: 300px;
+  width: 265px;
+}
+.register .blank .blank_img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.register .blank .blank_text {
+  padding: 24px;
+  width: calc(100% - 265px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.register .blank .blank_text .blank_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.register .blank .blank_text .blank_title .title_left {
+  color: #040921;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.register .blank .blank_text .blank_title .title_right {
+  height: 24px;
+  width: 24px;
+}
+.register .blank .blank_text .blank_title .title_right:hover {
+  cursor: pointer;
+}
+.register .blank .blank_text .blank_description {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: 0.25px;
+}
+.register .blank .blank_text .blank_foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+.register .blank .blank_text .blank_foot b {
+  margin-left: 16px;
+}
+.register .blank .blank_text .blank_foot .b_foot_left span {
+  margin-right: 40px;
+}
+.register .blank .blank_text .blank_foot .b_foot_right {
+  height: 37px;
+}
+.register .blank .blank_text .blank_foot .b_foot_right button {
+  height: 37px;
+  width: 37px;
+  background-color: #FFC000;
+  color: white;
+  text-align: center;
+  line-height: 37px;
+}
+.register .blank .blank_text .blank_foot .b_foot_right input {
+  height: 37px;
+  text-align: center;
+  background-color: #f2f2f2;
+  width: 97px;
+}
+.register .all_price {
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+.register .all_price .ap_left {
+  font-size: 16px;
+}
+.register .all_price .ap_left b {
+  margin-right: 16px;
+}
+.register .all_price .ap_right button {
+  text-transform: uppercase;
+  margin-right: 14px;
+  font-weight: 600;
+  text-align: center;
+  height: 56px;
+  line-height: 56px;
+  background-color: #FFC000;
+  width: 315px;
+}
+.register .register_error {
+  width: 100%;
+  margin-top: 45px;
+  text-align: center;
+  color: white;
+  background-color: #ff5959;
+  font-family: url(../../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  height: 48px;
+  line-height: 48px;
+}

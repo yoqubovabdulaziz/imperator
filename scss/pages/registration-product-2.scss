@@ -1,1 +1,130 @@
 @use "../global";
+@use "../utils/variables" as var;
+
+.register {
+  padding-top: 200px;
+  .register_title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    font-family: var.$primary-font;
+  }
+  .blank {
+    display: flex;
+    margin-top: 25px;
+    .blank_img {
+      height: 300px;
+      width: 265px;
+      img {
+        object-fit: cover;
+      }
+    }
+    .blank_text {
+      padding: 24px;
+      width: calc(100% - 265px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .blank_title {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        .title_left {
+          color: #040921;
+          font-family: var.$primary-font;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 140%;
+        }
+        .title_right {
+          height: 24px;
+          width: 24px;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+      .blank_description {
+        color: #000;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-family: var.$primary-font;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 22.4px */
+        letter-spacing: 0.25px;
+      }
+      .blank_foot {
+        display: flex;
+        justify-content: space-between;
+        font-family: var.$primary-font;
+        b {
+          margin-left: 16px;
+        }
+        .b_foot_left {
+          span {
+            margin-right: 40px;
+          }
+        }
+        .b_foot_right {
+          height: 37px;
+          button {
+            height: 37px;
+            width: 37px;
+            background-color: var.$primary-color;
+            color: white;
+            text-align: center;
+            line-height: 37px;
+          }
+          input {
+            height: 37px;
+            text-align: center;
+            background-color: #f2f2f2;
+            width: 97px;
+          }
+        }
+      }
+    }
+  }
+  .all_price {
+    font-family: var.$primary-font;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    .ap_left {
+      font-size: 16px;
+      b {
+        margin-right: 16px;
+      }
+    }
+    .ap_right {
+      button {
+        text-transform: uppercase;
+        margin-right: 14px;
+        font-weight: 600;
+        text-align: center;
+        height: 56px;
+        line-height: 56px;
+        background-color: var.$primary-color;
+        width: 315px;
+      }
+    }
+  }
+  .register_error {
+    width: 100%;
+    margin-top: 45px;
+    text-align: center;
+    color: white;
+    background-color: #ff5959;
+    font-family: var.$primary-font;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    height: 48px;
+    line-height: 48px;
+  }
+}
