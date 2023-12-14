@@ -1,6 +1,122 @@
 @use "../global";
+@use "../utils/variables" as var;   
 
 
 #product{
-    padding-top: 40px;
+    padding-top: 150px;
+}
+
+button.owl-dot.active{
+    padding: 15px 10px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.product{
+    &__right{
+        h1{
+            color: var.$black-color;
+            font-family: Montserrat700;
+            font-size: 25px;
+        }
+        p{
+            color: var.$black-color;
+            font-family: Montserrat400;
+            font-size: 14px;
+        }
+        h3{
+            color: var.$black-color;
+            font-family: Montserrat400;
+            font-size: 23px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        h2{
+            color: var.$black-color;
+            font-family: Montserrat700;
+            font-size: 24px;
+            padding-top: 20px;
+        }
+    }
+    &__right__1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__right__2{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        h1{
+            padding: 5px 10px;
+            border: 2px solid rgb(207, 207, 207);
+            border-radius: 4px;
+        }
+    }
+    &__right__btns{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 15px;
+    }
+    &__btn1{
+        padding: 10px 20px;
+        text-align: center;
+        background-color: var.$primary-color;
+        color: black;
+        font-family: Montserrat500;
+        font-size: 23px;
+    }
+    &__btn2 {
+        padding: 10px 20px;
+        text-align: center;
+        background: var(--black-5, rgba(0, 0, 0, 0.05));
+        color: black;
+        font-family: Montserrat500;
+        font-size: 23px;
+    }
+    &__right__service{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    &__right__service__item{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        img{
+            width: 40px;
+        }
+        p{
+            color: black;
+            font-family: Montserrat400;
+            font-size: 21px;
+        }
+    }
+    &__left__img{
+        img{
+            display: none;
+        }
+    }
+}
+
+.product__right__2 h1:active{
+    background-color: #f3f3f3;
+}
+
+@media (min-width: 700px){
+    .product__all{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .product__left__img img{
+        display: block;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .product__right__service {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
 }
