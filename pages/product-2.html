@@ -1,92 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="../css/output.css" />
-        <link rel="stylesheet" href="../css/product-2.min.css"/>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="../css/tailwind.css">
-        <title>IMPERATOR | PRODUCT-2 | MUHRIDDIN</title>
-    </head>
-    <body class="bg-[#fafafa]">
-             <a id="backtop" href="#">
-               <img src="../assets/images/top.svg" alt="arrow"/>
-             </a>
-          <div id="loading">
-            <div class="loadingio-spinner-spinner-9qtw80gtmdb">
-                <div class="ldio-zxbwzzspus">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/output.css" />
+    <link rel="stylesheet" href="../css/product-2.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/tailwind.css" />
+    <title>IMPERATOR | PRODUCT-2 | MUHRIDDIN</title>
+  </head>
+  <body class="bg-[#fafafa]">
+    <button id="mode-btn">
+      <img src="../assets/images/dark.svg" alt="">
+    </button>
+    <a id="backtop" href="#">
+      <img src="../assets/images/top.svg" alt="arrow" />
+    </a>
+    <div id="loading">
+      <div class="loadingio-spinner-spinner-9qtw80gtmdb">
+        <div class="ldio-zxbwzzspus">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
-        <header>
-            <div class="language h-10 bg-black">
-                <div class="rus-uzb container__1190 flex gap-3">
-                    <a class="ru" href="#">RU</a>
-                    <a href="#">UZB</a>
-                </div>
-            </div>
-            <nav>
-                <div class="nav container__1190 flex justify-between">
-                    <a href="#" class="nav__logo">MILANDI</a>
-                    <ul class="nav__list flex gap-10">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Категории</a></li>
-                        <li><a href="#">Сотрудничество</a></li>
-                    </ul>
-                    <div class="nav__end flex gap-6">
-                        <a class="login" href="#">Войти</a>
-                        <a class="registration" href="#">Зарегистрироваться</a>
-                        <img src="../assets/images/basket.svg" alt="basket" />
-                    </div>
-                </div>
-                 <div id="mode__btn">
-              <img src="../assets/images/dark.svg" alt="dark" class="dark-img"/>
-            </div>
-            </nav>
-        </header>
-        <main>
-            <section class="menu py-32 px-0" id="menu">
-                <div class="container__1190">
-                    <div class="mb-8">
-                        <a class="menu__link text-[#000] text-[14px] " href="#">Главная /</a>
-                        <a class="menu__link text-[#000] text-[14px]" href="#">Категории / </a>
-                        <a class="menu__link text-[#000] text-[14px]" href="https://brioni_mens_wear/"
-                            >Мужская одежда</a>
-                    </div>
-                    <div
-                        class="category__row mt-8 flex-wrap -mx-4 md:grid-cols-2 justify-between lg:grid-cols-2">
-                        <div class=" filter bg-[#fff] px-2">
-                            <div class="max-w-md mx-auto f px-0 py-0">
-                                <div class="border accordion overflow-hidden">
-                                    <!-- Accordion Item 1 -->
-                                    <div class="border-b">
-                                        <input
-                                            type="checkbox"
-                                            class="hidden"
-                                            id="accordion-item-1" />
-                                        <label
-                                            for="accordion-item-1"
-                                            class="block p-0 cursor-pointer hover:bg-gray-100">
-                                            Filter
-                                        </label>
-                                    </div>
+      </div>
+    </div>
+    <header>
+      <div id="language" class="language h-10 bg-black">
+        <div class="rus-uzb container__1190 flex gap-3">
+          <a class="ru" href="#">RU</a>
+          <a href="product-2-uz.html">UZB</a>
+        </div>
+      </div>
+      <nav id="navbar">
+        <div class="nav container__1190 flex justify-between">
+          <a href="../index.html" class="nav__logo">MILANDI</a>
+          <ul class="nav__list flex gap-10">
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="category.html">Категории</a></li>
+            <li><a href="partner.html">Сотрудничество</a></li>
+          </ul>
+          <div class="nav__end flex gap-6">
+            <a class="login" href="../pages/login.html">Войти</a>
+            <a class="registration" href="../pages/registration.html"
+              >Зарегистрироваться</a
+            >
+            <i class="fa-solid fa-cart-shopping basket"></i>
+            <a class="ru rus" href="#">RU</a>
+            <a class="uz" href="../pages/about-uz.html">UZB</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="navbar-responsive">
+      <ul class="nav__res__list">
+        <button id="navbar-close">
+          <i class="fa-regular fa-circle-xmark"></i>
+        </button>
+        <img src="../assets/images/Logo.svg" alt="">
+        <li><a class="active-navbar" href="#">Главная</a></li>
+        <li><a href="about.html">О нас</a></li>
+        <li><a href="category.html">Категории</a></li>
+        <li><a href="partner.html">Сотрудничество</a></li>
+        <li><a class="login" href="login.html">Войти</a></li>
+        <li><a class="registration" href="registration.html">Зарегистрироваться</a></li>
+        <div class="res-lang">
+          <a class="res-nav-ru" href="product-2-uz.html">RU</a>
+          <a class="res-nav-uz" href="#">UZB</a> 
+        </div>
+      </ul>
+    </div>
+    <main>
+      <section class="menu py-32 px-0" id="menu">
+        <div class="container__1190">
+          <div class="mb-8">
+            <a class="menu__link text-[#000] text-[14px]" href="#">Главная /</a>
+            <a class="menu__link text-[#000] text-[14px]" href="#"
+              >Категории /
+            </a>
+            <a
+              class="menu__link text-[#000] text-[14px]"
+              href="https://brioni_mens_wear/"
+              >Мужская одежда</a
+            >
+          </div>
+          <div
+            class="category__row mt-8 flex-wrap -mx-4 md:grid-cols-2 justify-between lg:grid-cols-2"
+          >
+            <div class="filter bg-[#fff] px-2">
+              <div class="max-w-md mx-auto f px-0 py-0">
+                <div class="border accordion overflow-hidden">
+                  <!-- Accordion Item 1 -->
+                  <div class="border-b">
+                    <input
+                      type="checkbox"
+                      class="hidden"
+                      id="accordion-item-1"
+                    />
+                    <label
+                      for="accordion-item-1"
+                      class="block p-0 cursor-pointer hover:bg-gray-100"
+                    >
+                      Filter
+                    </label>
+                  </div>
 
-                                    <form>
-                                        <!-- Accordion Item 2 -->
+                                   <form>
                                         <div class="border-b">
                                             <input
                                                 type="checkbox"
@@ -793,9 +822,17 @@
                             </div>
                         </div>
                     </div>
+                  </form>
                 </div>
-            </section>
-        </main>
-        <script src="../js/menu.js"></script>
-    </body>
+              </div>
+            </div>
+                </div> 
+              </div>
+            </div> 
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="../js/menu.js"></script>
+  </body>
 </html>

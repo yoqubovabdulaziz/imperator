@@ -41,15 +41,38 @@ function toggleBacktop() {
     }
 }
 // backtop end
-// light-dark start
-let modeBtn = document.getElementById("mode__btn");
+
+// dark mode
+
+let modeBtn = document.getElementById("mode-btn");
 
 modeBtn.addEventListener("click", function () {
   if (document.body.className != "dark") {
-    this.firstElementChild.src = "../asset/images/light.svg";
+    this.firstElementChild.src = "../assets/images/light.svg";
   } else {
-    this.firstElementChild.src = "../asset/images/dark.svg";
+    this.firstElementChild.src = "../assets/images/dark.svg";
   }
   document.body.classList.toggle("dark");
 });
-// light dark end
+
+// navbar shrink
+
+window.addEventListener("scroll", function () {
+  shrink();
+});
+
+let language = document.getElementById("language");
+let navbar = document.getElementById("navbar");
+
+function shrink() {
+  if (scrollY > 100) {
+    language.classList.add("language-shrink");
+  } else {
+    language.classList.remove("language-shrink");
+  }
+  if (scrollY > 100) {
+    navbar.classList.add("navbar-shrink");
+  } else {
+    navbar.classList.remove("navbar-shrink");
+  }
+}

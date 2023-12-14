@@ -312,3 +312,19 @@
 .dark .accordion-content span{
     color:#000;
 }
+
+
+@media (max-width: 900px) {
+    .nav__list {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav__end {
+        display: none;
+    }
+    .toggle {
+        display: inline;
+    }
+}
