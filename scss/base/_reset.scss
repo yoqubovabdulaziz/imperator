@@ -155,10 +155,6 @@ button {
 }
 
 
-.dark .password i {
-  color: var.$black-color;
-}
-
 .dark footer,
 .dark header,
 .dark #service,
@@ -172,13 +168,18 @@ button {
 .dark .container__full,
 .dark #about,
 .dark #world,
-.dark #add {
+.dark #add,
+.dark #product,
+.dark #basket__kategories,
+.dark #profil {
   background-color: var.$black-color;
   transition: 0.5s;
 }
 
 
-.dark .discount {
+
+.dark .discount,
+.dark .category__card__hover {
   background-color: var.$primary-color;
 }
 
@@ -194,12 +195,21 @@ button {
 .dark #adv *,
 .dark #world *,
 .dark #add *,
-.dark .login-hero *{
+.dark .login-hero *,
+.dark #category *,
+.dark #product *,
+.dark #basket__kategories *,
+.dark #hero *,
+.dark #profil * {
   color: var.$white-color;
 }
 
 .dark .service__card,
-.dark .product__card,
-.dark .category__card__hover {
+.dark .product__card {
   background-color: var.$black333-color;
+}
+
+
+.dark #toggle-password {
+  color: var.$dark-color
 }

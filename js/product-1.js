@@ -1,16 +1,4 @@
 $(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
-    margin: 30,
-    items: 1,
-    responsive: {
-      400: {
-        items: 4,
-      },
-    },
-  });
-});
-
-$(document).ready(function () {
   $("#product-carousel").owlCarousel({
     loop: true,
     margin: 10,
@@ -25,6 +13,18 @@ $(document).ready(function () {
       1000: {
         items: 4,
         loop: false,
+      },
+    },
+  });
+});
+
+$(document).ready(function () {
+  $(".owl-carousel").owlCarousel({
+    margin: 30,
+    items: 1,
+    responsive: {
+      400: {
+        items: 4,
       },
     },
   });
