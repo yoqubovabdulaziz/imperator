@@ -860,8 +860,8 @@ footer {
   height: 50px;
   z-index: -1;
   background-color: green;
-  -webkit-box-shadow: 0 0 5px 5px rgb(171, 103, 103);
-          box-shadow: 0 0 5px 5px rgb(171, 103, 103);
+  -webkit-box-shadow: 0 0 5px 5px #fff;
+          box-shadow: 0 0 5px 5px #fff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   display: flex;

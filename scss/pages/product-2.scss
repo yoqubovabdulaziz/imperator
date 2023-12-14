@@ -130,7 +130,7 @@
     height: 50px;
     z-index: -1;
     background-color: green;
-    box-shadow: 0 0 5px 5px rgb(171, 103, 103);
+    box-shadow: 0 0 5px 5px #fff;
     transition: 0.5s;
     display: flex;
     align-items: center;
@@ -272,7 +272,7 @@
     }
 }
 
-// light-dark
+// light-dark start
 
 #mode__btn {
     display: flex;
@@ -313,7 +313,7 @@
     color:#000;
 }
 
-
+// light dark end
 @media (max-width: 900px) {
     .nav__list {
         display: none;
