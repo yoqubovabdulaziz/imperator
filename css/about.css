@@ -239,7 +239,9 @@ button {
 .dark #payment,
 .dark #zakaz,
 .dark #magazin,
-.dark #category__eror {
+.dark #category__eror,
+.dark .hero__left,
+.dark #navbar-responsive {
   background-color: #0D0D0D;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -272,7 +274,8 @@ button {
 .dark .footer__mobile *,
 .dark #footer__bottom,
 .dark #magazin *,
-.dark #category__eror * {
+.dark #category__eror *,
+.dark #navbar-responsive * {
   color: #FFF;
 }
 
